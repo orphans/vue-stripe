@@ -1,5 +1,5 @@
-import StripeCheckout from './StripeCheckout.vue';
-import Bus from './bus';
+let StripeCheckout = require('./StripeCheckout.vue');
+let Bus = require('./bus');
 
 const VueStripe = {
     Bus,
